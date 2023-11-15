@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+	body{
+	font-family: 'Times New Roman', Times, serif;
+	}
+	header {
+		background-color: #1190cb;
+		height:  50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 5px;
+	  }
+	.logoprincipal{
+	
+	width: 63px;
+	}
+	  
+	h1 {
+		font-size: 3em;
+		margin-top: 0;
+	}
+	  
+	nav {
+		padding: 6px 11px;
+		
+	  }
+	  
+	  nav a {
+		display: inline-block;
+		padding: 6px 11px;
+		background-color: #FFFFFF;
+		color: #1190cb;
+		text-decoration: none;
+		left: 39%;
+		border-radius: 20%;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		
+	  }
+	  
+	  nav a:hover {
+		background-color: #1190cb;
+		color: #FFFFFF;
+	  }
+	.social-media {
+		background-color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+	  }
+	  .social-media a {
+		display: inline-block;
+		padding: 10px;
+		margin: 0 5px;
+	  }
+	  
+	  .social-media a img {
+		width: 20px;
+		height: 20px;
+	  }
+	/*Section 1-Modificar*/
+	.contenido{  
+	background-color: rgb(255, 255, 255);
+	height: 500px;
+	
+	background-image: url(../imagenes/fondoprin.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+	}
+	
+	.titulo{
+	position: relative;
+	top: 120px;
+	font-size: 40px;
+	}
+	.Gomudainfo{
+	background-color:#1190cb;
+	}
+	.fotosecundaria{
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+	section {
+		padding: 20px;
+	  }
+	  .Contenido {
+		display: flex;
+		margin: 50px;
+	}
+	.Secciones{
+		display: flex;
+		align-items: center;
+		padding: 40px;
+	}
+	/*Section 2-Modificar*/
+	.nuestrosserv{
+	text-align: center;
+	}
+	.servicios {
+	  margin-bottom: 5rem;
+		
+	}
+	
+	.Cajaservicio {
+	  display: flex;
+	  justify-content: center;
+	  flex-wrap: wrap;
+	  text-align: center;
+	  
+	}
+	.Cajaservicio .linkser{
+	  text-decoration: none;
+	  color: black;
+	}
+	.Cajaservicio .text-servicio{
+	font-size: 20px;
+	top: 10px;
+	
+	}
+	.servicios-item {
+	  height: 10rem;
+	  width: 20%;
+	  background-color: rgb(245, 237, 237);
+	  color:#1190cb;
+	  border: 1px solid black;
+	  margin: 5rem;
+	  border-radius: 20px;
+	  
+	}
+	.boton-servicios{
+	  border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+	  padding: 10px; /*espacio alrededor texto*/
+	  background-color: #ffffff; /*color botón*/
+	  color: #ffffff; /*color texto*/
+	  text-transform: uppercase; /*capitalización texto*/
+	  border-radius: 50px; /*bordes redondos*/
+	  position: relative;
+	  top: 10px;
+	}
+	
+	  footer {
+		background-color: #1190cb;
+		padding: 20px;
+		text-align: center;
+	  }

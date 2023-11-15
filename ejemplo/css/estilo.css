@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header-ver {
+    background-color: #1190cb;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-ver img {
+    height: 50px;
+    width: auto;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.informacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.img-container-ver {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-camion-ver {
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.detalles {
+    max-width: 400px;
+    text-align: left;
+}
+
+.footer-ver {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* ... Código anterior ... */
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.redes-btn {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.redes-btn:hover {
+    transform: scale(1.1);
+}
+
+.redes-btn img {
+    width: 50px;
+    height: 50px;
+}
+
+/* ... Código posterior ... */

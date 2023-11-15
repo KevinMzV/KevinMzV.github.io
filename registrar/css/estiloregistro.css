@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(#1190cb,#fff);
+    color: #fff;
+}
+
+.Fondo {
+    width: 420px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+    padding: 100px 40px;
+}
+
+.Fondo h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.Fondo .Entrada {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.Entrada input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.Entrada i {
+    position: absolute;
+    right: 5px;
+}
+
+.FechaNacimiento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 130px;
+    padding: 10px 15px;
+}
+
+.Volver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Volver a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Volver a:hover {
+    text-decoration: underline;
+}
